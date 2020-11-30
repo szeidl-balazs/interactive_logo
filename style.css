@@ -1,0 +1,40 @@
+svg 
+{stroke:#000;
+	width: 100vw;
+	height: 100vh;
+}
+
+.background,.foam,.e,.f,.h,.i {stroke-miterlimit:10;
+}
+
+.background,.foam {stroke-width:0.25px;
+}
+
+.handle-inner,.foam,.f,.i {fill:#fff;
+}
+
+.handle-outer {fill:#e6e6e6;}
+
+.foam,.f,.h {stroke:#e6e6e6;
+}
+
+.e,.h {fill:#fbb03b;
+}.e{stroke:#ccc;}
+
+.g {fill:none;
+}
+
+.i {stroke:#f2f2f2;
+}
+
+.background:hover {
+	fill: brown;
+}
+
+#brand .h:hover {
+	fill: red;
+}
+
+.g:hover, .f:hover, .e:hover {
+	fill: #301604;
+}
